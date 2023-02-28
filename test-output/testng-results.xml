@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-27T15:48:54 IST" name="Automation_ProjectSuite" finished-at="2023-02-27T15:49:04 IST" duration-ms="9855">
+    <groups>
+      <group name="Master">
+        <method signature="TC_03_LoginTest.test_Login()[pri:0, instance:testCases.TC_03_LoginTest@2a798d51]" name="test_Login" class="testCases.TC_03_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_03_LoginTest.test_Login()[pri:0, instance:testCases.TC_03_LoginTest@2a798d51]" name="test_Login" class="testCases.TC_03_LoginTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2023-02-27T15:48:54 IST" name="Test" finished-at="2023-02-27T15:49:04 IST" duration-ms="9855">
+      <class name="testCases.TC_03_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_03_LoginTest@2a798d51]" started-at="2023-02-27T15:48:55 IST" name="setup" finished-at="2023-02-27T15:49:01 IST" duration-ms="6348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_03_LoginTest@2a798d51]" started-at="2023-02-27T15:49:01 IST" name="test_Login" finished-at="2023-02-27T15:49:04 IST" duration-ms="2728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_03_LoginTest@2a798d51]" started-at="2023-02-27T15:49:04 IST" name="teardown" finished-at="2023-02-27T15:49:04 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_03_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation_ProjectSuite -->
+</testng-results>
